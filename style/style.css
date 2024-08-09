@@ -1,0 +1,111 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100vw;
+}
+
+body {
+  height: 100%;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+#dropdown {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  padding: 11px 0;
+
+}
+
+#mapTheme {
+  position: fixed;
+  z-index: 1000;
+  border-radius: 10%;
+  background-color: lightgray;
+}
+
+#countryOptions {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.button-container {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+
+
+#map {
+  height: 100%;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+option {
+  color : rgb(0, 0, 0);
+
+}
+
+option.dropdown-item:hover {
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    max-height: 380px;
+    overflow-y: auto;
+  } 
+
+.dropdown-menu::-webkit-scrollbar {
+    width: 11px;
+  }
+
+
+
+li.d-block {
+  display: block;
+}
+
+
+
+.modal-body {
+  overflow: hidden;
+  min-height: 350px;
+}
+
+.fadeOut {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 1s, opacity 1s linear;
+}
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+
+#weather_forecast {
+  position: fixed;
+  top: 40px;
+  z-index: 1000;
+  max-width: 10px;
+  max-height: 10px;
+  justify-content: left;
+}
+
+#currency_container {
+  position: fixed;
+  top: 100px;
+  left: 0;
+  z-index: 1000;
+  max-width: 10px;
+  max-height: 10px;
+}
